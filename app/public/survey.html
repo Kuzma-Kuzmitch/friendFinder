@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Super Fun Survery!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../data/code.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-center">Please take this survey!</h1>
+      </div>
+    </div>
+    <hr>
+    <div class="container mx-auto mb-3">
+    <form>
+  <h1>What is your name?</h1>
+  <input type="text" id="name" class="form-control">
+  <div class="form-group">
+    <h1>Question 1</h1>
+    <label for="question1">Aren't dogs just the best?</label>
+    <select class="form-control" id="question1">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 2</h1>
+    <label for="question2">Do I look okay in these pants?</label>
+    <select class="form-control" id="question2">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 3</h1>
+    <label for="question3">Do people who smoke deserve (in a way) to die?</label>
+    <select class="form-control" id="question3">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 4</h1>
+    <label for="question4">Are radios poisoning the youth?</label>
+    <select class="form-control" id="question4">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 5</h1>
+    <label for="question5">John Lennon was the best Beatle</label>
+    <select class="form-control" id="question5">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (You're Damn Right!)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 6</h1>
+    <label for="question6">Every television show needs an ending</label>
+    <select class="form-control" id="question6">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 7</h1>
+    <label for="question7">The amount of friends you have is equal to how litle you think of yourself</label>
+    <select class="form-control" id="question7">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 8</h1>
+    <label for="question8">Spending time alone is the only way to spend time alone</label>
+    <select class="form-control" id="question8">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 9</h1>
+    <label for="question9">You think you're a better coder than you really are</label>
+    <select class="form-control" id="question9">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <h1>Question 10</h1>
+    <label for="question10">World peas is more important than world peace</label>
+    <select class="form-control" id="question10">
+      <option selected value>Choose an answer</option>
+      <option value=1>1 (Strongly Disagree)</option>
+      <option value=2>2</option>
+      <option value=3>3 (Neutral)</option>
+      <option value=4>4</option>
+      <option value=5>5 (Strongly Agree)</option>
+    </select>
+  </div>
+</form>
+  <button type="submit" data-toggle="modal" data-target="#matchModal" class="btn btn-primary btn-large btn-block" id="submit">Submit</button>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="matchModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Your Best Match!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3>We think you'd be great friends with:</h3>
+        <p class="font-weight-bold" id="match-name"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
